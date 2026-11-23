@@ -30,7 +30,17 @@ python verificar_coleta.py resultados/v5_principal
 python verificar_coleta.py resultados/v5_tempo_real
 ```
 
-A configuração da coleta registra Python **3.12.6** e Ollama **0.40.16**, além dos identificadores dos modelos. O `requirements.txt` original lista NumPy, SciPy e Matplotlib sem fixar versões. O ambiente da auditoria usou Python **3.12.14** e as versões em [requirements-auditoria.txt](requirements-auditoria.txt). As versões instaladas na análise original continuam pendentes de confirmação.
+O autor confirmou as versões diretamente no ambiente original do experimento.
+
+| Componente | Versão original |
+|---|---|
+| Python | 3.12.6 |
+| NumPy | 2.5.4 |
+| SciPy | 1.18.1 |
+| Matplotlib | 3.11.2 |
+| Ollama | 0.40.16 |
+
+O ambiente da auditoria usou Python **3.12.14** e as versões em [requirements-auditoria.txt](requirements-auditoria.txt).
 
 ## Contrastes de sucesso
 
