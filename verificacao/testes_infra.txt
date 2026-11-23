@@ -1,0 +1,16 @@
+test_actual_overlap (__main__.Tests.test_actual_overlap) ... ok
+test_blackboard (__main__.Tests.test_blackboard) ... ok
+test_concurrency (__main__.Tests.test_concurrency) ... ok
+test_context_and_map (__main__.Tests.test_context_and_map) ... ok
+test_http_async (__main__.Tests.test_http_async) ... ok
+test_logical_latency_independence (__main__.Tests.test_logical_latency_independence) ... ok
+test_prompt_scope (__main__.Tests.test_prompt_scope) ... ok
+test_wait_voluntary (__main__.Tests.test_wait_voluntary) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.675s
+
+OK
+Concorrência: 20.000 mensagens, commits= 1219 substituídas= 18781 violações=0
+HTTP MOCK llm_puro frames= 49 misses= 0 calls= 8 success= 1
+HTTP MOCK llm_hibrido frames= 49 misses= 0 calls= 5 success= 1

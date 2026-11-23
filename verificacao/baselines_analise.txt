@@ -1,0 +1,3 @@
+verificacao/baselines grupos= 6 comparações= 3
+Grupos incompletos: []
+Análise descritiva/exploratória apenas: desenho não confirmatório.

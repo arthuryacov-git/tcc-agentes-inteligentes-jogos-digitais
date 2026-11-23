@@ -1,0 +1,4 @@
+Registros: 1200 / 1200 | Ausentes: 0 | Extras: 0
+fsm_bt | n= 600 | sucessos= 523 | chamadas= 0 | saídas inválidas= 0 | esperas voluntárias= 1622 / 6335 | espera técnica= 0 | overrides= 0 | metas rejeitadas no contexto= 0 | ações durante inferência= 0
+planejador | n= 600 | sucessos= 590 | chamadas= 0 | saídas inválidas= 0 | esperas voluntárias= 237 / 5338 | espera técnica= 0 | overrides= 0 | metas rejeitadas no contexto= 0 | ações durante inferência= 0
+Integridade técnica OK. Sucesso comportamental não é condição de aprovação.

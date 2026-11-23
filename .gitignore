@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.env
+*.pyc
+resultados/**/registros.jsonl
+resultados/**/inferencias.csv
+resultados/**/decisoes.csv
+resultados/**/frames.csv

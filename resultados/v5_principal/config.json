@@ -1,0 +1,32 @@
+{
+  "protocol": "V5.0",
+  "url": "http://127.0.0.1:11434",
+  "warmups": 2,
+  "temperature": 0.2,
+  "num_predict": 128,
+  "num_ctx": 4096,
+  "hybrid_overlap_turns": 1,
+  "goal_filter": "context_v1",
+  "n": 200,
+  "seed": 20261119,
+  "tick_s": 1.0,
+  "period": 4,
+  "realtime": false,
+  "baseline_only": false,
+  "models": [
+    {
+      "model": "qwen2.5:3b",
+      "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+      "ollama": "0.40.16"
+    },
+    {
+      "model": "llama3.2:3b",
+      "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+      "ollama": "0.40.16"
+    }
+  ],
+  "python": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "controller_sha256": "82466af022883ecb7d606fe4c9037b0e3106e9ec9f50f01d050b91519bc8b710",
+  "world_sha256": "52e8a1c73014eb94b704c7e47877f392259243dc5f1a34378c28aac1bb81da9d"
+}
